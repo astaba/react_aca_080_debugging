@@ -4,6 +4,7 @@ import './CourseGoalItem.css';
 
 const CourseGoalItem = (props) => {
   const deleteHandler = () => {
+    console.log(props.id);
     props.onDelete(props.id);
   };
 
